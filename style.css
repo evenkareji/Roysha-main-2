@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/*BASE
+-------------------------------*/
+body {
+  color: #6c6c6f;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.75;
+  font-size: 16px;
+  letter-spacing: 0;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* レイアウト
+----------------------------- */
+/* 繰り返し使用されるレイアウトルールについては、クラスセレクタを使用し、接頭辞として「layout-」もしくは「l-」を付ける */
+.l-inner {
+  width: 88%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* header */
+.l-header {
+}
+
+/* footer */
+.l-footer {
+}
+
+/* module
+----------------------------- */
+/* unit */
+
+/* card */
+
+/* btn */
